@@ -4,22 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>马春宁的个人主页</title>
+  <title>machunning - 个人主页</title>
+  <link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
-  <div id="mainbody">
-    <header id="header">
-
-    </header>
-    <div id="content">
-      <div id="pic"></div>
-      <div id="msg">
-        热爱生活，热爱前端。欢迎来到马春宁的个人主页。
+<body id="mainbody">
+  <header id="header">
+    <div class="title">machunning</div>
+  </header>
+  <section id="introduction">
+    <div id="pic">
+      <img src="./image/MyPic.png" alt="myPic" class="picSize">
+    </div>
+    <div id="msg">
+      <p>大家好，欢迎来到马春宁的个人主页。</p>
+      <p>一个新新WEB前端程序猿。</p>
+      <a href="#" class="download">下载简历</a>
+    </div>
+  </section>
+  <section id="about">
+    <h2 class="about-title">关于我</h2>
+    <ul class="about-msg">
+      <li>我的大学专业是环境化学专业。</li>
+      <li>在大学中，我在参与社团活动中了解到了计算机前端方向，并逐渐喜欢上了它。</li>
+      <li>在学习WEB前端开发，偏向于逻辑实现，使用Vue全家桶构建前端项目，mui构建移动端页面，Echart将数据渲染成图表。</li>
+      <li>在学习期间，我也学习了C语言、Linux、MySQL、Node.JS后端知识，计算机基础课程知识（操作系统、组成原理、网络、数据结构）。</li>
+      <li>在神农大学生软件创客团队工作了三年,参与了学校的各种项目开发，也参与过开源项目，给项目提供PR。</li>
+    </ul>
+  </section>
+  <section id="skill">
+    <h2 class="skill-title">技能</h2>
+    <div class="skill-msg">
+      <div class="skill-cell">
+        <strong>HTML&CSS</strong>
+        <span class="text-right">40%</span>
+        <div class="progress-bar" style="width:40%;"></div>
+      </div>
+      <div class="skill-cell">
+        <strong>JavaScript</strong>
+        <span class="text-right">70%</span>
+        <div class="progress-bar" style="width:70%;"></div>
+      </div>
+      <div class="skill-cell">
+        <strong>Vue.js、React、微信小程序等MVVM框架</strong>
+        <span class="text-right">30%</span>
+        <div class="progress-bar" style="width:30%;"></div>
       </div>
     </div>
-    <footer id="footer">
-
-    </footer>
-  </div>
+  </section>
+  <section id="contact">
+    <h2 class="contact-title">联系我</h2>
+    <p class="contact-msg">
+      GitHub：<a href="https://github.com/Mcnwork2018">https://github.com/Mcnwork2018</a>
+    </p>
+    <p class="contact-msg">邮箱：mcnwork2018@163.com || mcnwork2018@gmail.com</p>
+    <p class="contact-msg">邮件请注明“来自www.machunning.com个人主页”</p>
+    <p class="contact-msg">谢谢</p>
+  </section>
+  <footer id="footer">machunning - 个人主页</footer>
 </body>
 </html>

@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #575757;
+}
+
+#mainbody {
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+#header {
+  width: 100%;
+  height: 70px;
+}
+
+.title {
+  margin-left: 12%;
+  width: 200px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#introduction {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 1100px;
+  height: 550px;
+}
+
+#pic{
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.picSize {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px; 
+}
+
+#msg{
+  position: relative;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#msg p {
+  font-size: 40px;
+}
+
+.download {
+  display: block;
+  margin: 0 auto;
+  margin-top:15px; 
+  line-height: 50px;
+  border-radius: 25px;
+  width: 120px;
+  height: 50px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #d7b065;
+}
+
+.download:hover {
+  background-color: #000000;
+}
+
+#about {
+  position: relative;
+  margin: 0 auto; 
+  margin-top: 80px;
+  width: 1100px;
+  height: 450px;
+}
+
+.about-title {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #575757;
+  font-size: 40px;
+  font-style: 200;
+  font-weight: 200;
+  line-height: 52px;
+}
+
+.about-msg {
+  width: 800px;
+  margin: 0 auto;
+  color: #575757;
+}
+
+.about-msg li {
+  padding-top: 5px;
+}
+
+#skill {
+  position: relative;
+  margin: 0 auto; 
+  margin-top: 80px;
+  width: 1100px;
+  height: 300px;
+}
+.skill-title {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #575757;
+  font-size: 40px;
+  font-style: 200;
+  font-weight: 200;
+  line-height: 52px;
+}
+
+.skill-msg {
+  width: 800px;
+  margin: 0 auto;
+  color: #575757;
+}
+
+.skill-cell{
+  height: 60px;
+}
+
+.text-right {
+  float: right;
+}
+
+.progress-bar{
+  margin-top: 10px;
+  height: 4px;
+  background-color: #3d3d3f;
+}
+
+#contact{
+  position: relative;
+  margin: 0 auto; 
+  margin-top: 80px;
+  width: 1100px;
+  height: 200px;
+}
+
+.contact-title{
+  text-align: center;
+  padding-bottom: 10px;
+  color: #575757;
+  font-size: 40px;
+  font-style: 200;
+  font-weight: 200;
+  line-height: 52px;
+}
+
+.contact-msg{
+  color: #878787;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#footer{
+  position: relative;
+  margin: 0 auto; 
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 1100px;
+  text-align: center;
+  font-size: 14px;
+}
